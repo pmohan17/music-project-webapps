@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Frank Sinatra</title>
+  </head>
+<body>
+<header> <h1> Frank Sinatra </h1> </header>
+<div class= "container">
+<div class= "largeImage">
+<img src="images/frank-sinatra-large.jpg" alt="larger photo of Frank Sinatra">
+<p> Image source: <a href="https://pixabay.com/en/singer-frank-sinatra-1947-63055/">Pixabay.com</a> </p>
+</div>
+<p id= "about"> Frank Sinatra was born in 1915 and rose to become one of the most recognizable men in music and film. Influenced by Bing Crosby, he became attracted to big band music. Not only a singer, he was a noteworthy actor, appearing in classic films including "From Here to Eternity." Many songs which he became famous for, in fact, were covers that he had done, such as "The Way You Look Tonight" and "Luck Be A Lady." He died May 14, 1998. Source: <a href="https://www.biography.com/people/frank-sinatra-9484810">Biography.com</a> </p>
+
+ <!-- Album Covers -->
+<div class= "album">
+<img id= "comeFlyWithMeCover" src= "images/come_fly_with_me_cover.jpg" alt="photo of cover of come fly with me" class="albumCover">
+<img id= "myKindOfBroadwayCover" src= "images/my_kind_of_broadway.jpg" alt="photo of cover of my kind of broadway" class="albumCover">
+<img id= "pointOfNoReturn" src= "images/point_of_no_return.jpg" alt="photo of cover of point of no return" class="albumCover">
+<img id= "theWorldWeKnew" src= "images/the_world_we_knew.jpg" alt="photo of cover of the world we knew" class="albumCover"></div>
+
+ <!-- Music Players -->
+ <div class ="music">
+ <audio id="comeFlyWithMeSong" controls preload="auto">
+        <source src="audio/come_fly_with_me.mp3" type="audio/mp3">
+        <source src="audio/come_fly_with_me.ogg" type="audio/ogg">
+</audio>
+<audio id="luckBeALadySong" controls preload="auto">
+       <source src="audio/luck_be_a_lady.mp3" type="audio/mp3">
+       <source src="audio/luck_be_a_lady.ogg" type="audio/ogg">
+</audio>
+<audio id="asTimeGoesBySong" controls preload="auto">
+       <source src="audio/as_time_goes_by.mp3" type="audio/mp3">
+       <source src="audio/as_time_goes_by.ogg" type="audio/ogg">
+</audio>
+<audio id="somethinStupidSong" controls preload="auto">
+       <source src="audio/somethin_stupid.mp3" type="audio/mp3">
+       <source src="audio/somethin_stupid.ogg" type="audio/ogg">
+</audio></div>
+
+
+ <!-- Now Playing -->
+ <div class="nowPlaying">
+   <p id="comeFlyWithMePlaying"> Now Playing: Come Fly With Me </p>
+   <p id="luckBeALadyPlaying"> Now Playing: Luck Be A Lady </p>
+   <p id="asTimeGoesByPlaying"> Now Playing: As Time Goes By </p>
+   <p id="somethinStupidPlaying"> Now Playing: Somethin' Stupid (ft. Nancy Sinatra) </p>
+</div>
+
+
+
+
+<footer> This page was made by Priya Mohan, in tribute to the late Frank Sinatra, using Javascript and JQuery. </footer>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
