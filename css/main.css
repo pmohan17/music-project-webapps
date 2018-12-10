@@ -17,8 +17,12 @@ h1{
   font-size: 67px;
 }
 .music{
-largeImage
 
+
+}
+#largeImage{
+max-height: 40em;
+max-width:30em;
 }
 .album{
   cursor: pointer;
